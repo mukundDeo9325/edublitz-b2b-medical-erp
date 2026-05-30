@@ -8,7 +8,7 @@ spring:
     name: user-service
   data:
     mongodb:
-      uri: ${MONGODB_URI:mongodb://localhost:27017/users_db}
+      uri: ${MONGODB_URI:mongodb+srv://cbz:redhat123@edublitz.wvdtel9.mongodb.net/users_db?retryWrites=true&w=majority}
       database: users_db
   jackson:
     default-property-inclusion: non_null
